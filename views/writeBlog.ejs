@@ -1,0 +1,31 @@
+<%- include("partials/header.ejs") %>
+
+ <form action="/blog" method="POST">
+  <!--title-->
+  <div class="input-group" >
+    <span class="input-group-text fst-italic write" > Give a title to the blog</span>
+    <textarea class="form-control" aria-label="With textarea" name="title"></textarea>
+  </div>
+  <!--desc-->
+ <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, consequatur perspiciatis voluptatum eius omnis recusandae
+   uid!-->
+  <div class="input-group ">
+    <span class="input-group-text fst-italic write" > Description about blog</span>
+    <textarea class="form-control" aria-label="With textarea" name="desc"></textarea>
+  </div>
+
+<!--text area-->
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, consequatur perspiciatis voluptatum eius omnis recusandae
+   uid orem ipsum dolor sit amet consectetur adipisicing elit. Veniam, consequatur perspiciatis voluptatum eius omnis recusandae
+   u!-->
+<div class="input-group" style="height: 250px;">
+    <span class="input-group-text  fst-italic write" >Write your blog</span>
+    <textarea class="form-control" aria-label="With textarea" name="blog"></textarea>
+  </div>
+
+  <div class="d-grid gap-2">
+   <button class="btn btn-primary fst-italic" type="button submit" style="background:  #8c52ff;">click here to VIEW the blog</button>
+  </div>
+</form>
+
+<%- include("partials/footer.ejs") %>
